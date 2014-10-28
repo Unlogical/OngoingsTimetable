@@ -1,6 +1,12 @@
 doctype html
 html
-  head
-  body
-    h1 Jade - node template engine
-    p Hello, World!
+	head
+		meta(charset="utf-8")
+		link(rel="stylesheet",href="style/style.css")
+	body
+		div#header.header
+			ul#menu.menu
+				li: a(href="#") Главная
+				li: a(href="#") Поиск
+				li: a(href="#") Мои сериалы
+				li: a(href="#") Моё расписание
